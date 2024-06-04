@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
-import QQModal from "./components/QQModal.vue";
 
 export default hopeTheme({
   hostname: "https://flipped1001.cn",
@@ -74,7 +73,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "豫ICP备2024072453号",
 
       displayFooter: true,
       
