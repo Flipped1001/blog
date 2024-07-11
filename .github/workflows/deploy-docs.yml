@@ -3,7 +3,7 @@ name: 部署文档
 on:
   push:
     branches:
-      - main
+      - master  # 当 master 分支有推送时触发
 
 permissions:
   contents: write
@@ -54,16 +54,16 @@ jobs:
            mkdir -p ~/.ssh
             echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
             chmod 600 ~/.ssh/id_rsa
-            ssh-keyscan -H iknan.love >> ~/.ssh/known_hosts
-            echo "Host iknan.love
+            ssh-keyscan -H flipped1001.cn >> ~/.ssh/known_hosts
+            echo "Host flipped1001.cn
               StrictHostKeyChecking no" >> ~/.ssh/config
       - name: 部署到服务器
         uses: appleboy/ssh-action@master
         with:
-          host: iknan.love
+          host: flipped1001.cn
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd /www/wwwroot/www.iknan.love
+            cd /www/wwwroot/www.flipped1001.cn
             git pull origin gh-pages  # 拉取最新的代码
