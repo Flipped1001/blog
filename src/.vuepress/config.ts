@@ -11,7 +11,7 @@ const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   base: "/",
-dest:'Fliiped',
+dest:'dist',
   locales: {
     "/en/": {
       lang: "en-US",
