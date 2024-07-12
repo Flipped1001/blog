@@ -12,7 +12,7 @@ projects:
   - icon: project
     name: 项目名称
     desc: 项目详细描述
-    link: https://你的
+    link: https:/
 
   - icon: link
     name: 链接名称
