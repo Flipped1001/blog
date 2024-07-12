@@ -1,0 +1,16 @@
+import comp from "C:/VS Code/my-docs/src/.vuepress/.temp/pages/zh/posts/计算机网络/HTTP/HTTP和HTTPS的区别.html.vue"
+const data = JSON.parse("{\"path\":\"/zh/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/HTTP%E5%92%8CHTTPS%E7%9A%84%E5%8C%BA%E5%88%AB.html\",\"title\":\"HTTP和HTTPS的区别\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"HTTP和HTTPS的区别\",\"tags\":[\"计算机基础\",\"计算机网络\",\"HTTP\",\"HTTPS\"],\"categories\":[\"计算机网络\"],\"description\":\"HTTP和HTTPS： 1.HTTP和HTTPS的区别： 安全性：HTTP是明文传输不安全，HTTPS在TCP和HTTTP网络层之间加入了SSL/TLS协议（报文可以加密传输）更安全 建立连接的复杂程度上：HTTP连接简单三次握手之后就可以进行报文的传输，而HTTPS在三次握手之后还需要进行一次SSL/TLS的握手过程之后可以进行加密传输 默认端口：H...\",\"gitInclude\":[],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/zh/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/HTTP%E5%92%8CHTTPS%E7%9A%84%E5%8C%BA%E5%88%AB.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"博客主页\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"HTTP和HTTPS的区别\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"HTTP和HTTPS： 1.HTTP和HTTPS的区别： 安全性：HTTP是明文传输不安全，HTTPS在TCP和HTTTP网络层之间加入了SSL/TLS协议（报文可以加密传输）更安全 建立连接的复杂程度上：HTTP连接简单三次握手之后就可以进行报文的传输，而HTTPS在三次握手之后还需要进行一次SSL/TLS的握手过程之后可以进行加密传输 默认端口：H...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"计算机基础\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"计算机网络\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"HTTP\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"HTTPS\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"HTTP和HTTPS的区别\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[]}\"]]},\"headers\":[{\"level\":2,\"title\":\"HTTP和HTTPS：\",\"slug\":\"http和https\",\"link\":\"#http和https\",\"children\":[{\"level\":3,\"title\":\"1.HTTP和HTTPS的区别：\",\"slug\":\"_1-http和https的区别\",\"link\":\"#_1-http和https的区别\",\"children\":[]},{\"level\":3,\"title\":\"2.HTTPS解决了HTTP的那些问题?\",\"slug\":\"_2-https解决了http的那些问题\",\"link\":\"#_2-https解决了http的那些问题\",\"children\":[]},{\"level\":3,\"title\":\"3.HTTPS是如何建立连接的,期间交互了什么?\",\"slug\":\"_3-https是如何建立连接的-期间交互了什么\",\"link\":\"#_3-https是如何建立连接的-期间交互了什么\",\"children\":[]},{\"level\":3,\"title\":\"4.HTTPS的应用数据时如保证完整性的\",\"slug\":\"_4-https的应用数据时如保证完整性的\",\"link\":\"#_4-https的应用数据时如保证完整性的\",\"children\":[]}]}],\"readingTime\":{\"minutes\":7.14,\"words\":2142},\"filePathRelative\":\"zh/posts/计算机网络/HTTP/HTTP和HTTPS的区别.md\",\"excerpt\":\"<h2>HTTP和HTTPS：</h2>\\n<h3>1.HTTP和HTTPS的区别：</h3>\\n<ol>\\n<li>安全性：HTTP是明文传输不安全，HTTPS在<strong>TCP和HTTTP网络层</strong>之间加入了<strong>SSL/TLS协议</strong>（报文可以加密传输）更安全</li>\\n<li>建立连接的复杂程度上：HTTP连接简单<strong>三次握手之后</strong>就可以进行报文的传输，而HTTPS在<strong>三次握手之后还需要进行一次SSL/TLS的握手</strong>过程之后可以进行加密传输</li>\\n<li>默认端口：HTTP是80，HTTPS是443</li>\\n<li>HTTPS需要向CA申请数字证书，来保证服务器的身份是可信的</li>\\n</ol>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
