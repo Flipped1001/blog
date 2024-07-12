@@ -3,7 +3,7 @@ name: 部署文档
 on:
   push:
     branches:
-      - master  # 当 master 分支有推送时触发
+      - dev_flipped  # 当 master 分支有推送时触发
 
 permissions:
   contents: write
@@ -41,13 +41,7 @@ jobs:
 
       - name: 创建 CNAME 文件
         run: 
-          echo 'hope.iknan.love' > CNAME
-
-      - name: 部署文档到 GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: dist
+          echo 'hope.Flipped.cn' > CNAME
 
       - name: 设置 SSH 环境
         run: |
@@ -66,4 +60,5 @@ jobs:
           port: 22
           script: |
             cd /www/wwwroot/www.flipped1001.cn
-            git pull origin gh-pages  # 拉取最新的代码
+            git pull origin dev_flipped  # 拉取最新的代码
+            sudo systemctl restart my_project_service
